@@ -1,7 +1,7 @@
-width = 5
-height = 10
-lenght = 5
+width = int(input("กรอกความกว้าง"))
+height = int(input("กรอกความสูง"))
+lenght = int(input("กรอกความยาว"))
 space = width * height
-volume = space * lenght
+volume = height * width * lenght
 print("พื้นที่คือ" , space)
 print("ปริมาตรคือ" , volume)
